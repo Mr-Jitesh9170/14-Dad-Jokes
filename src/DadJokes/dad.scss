@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+}
+.dad-jokes-container {
+  margin: 120px auto;
+  padding: 10px 20px;
+  width: 40vw;
+  height: 50vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  p {
+    color: steelblue;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  h3 {
+    text-align: center;
+    font-size: 17px;
+  }
+  button {
+    padding: 7px 10px;
+    border: none;
+    background-color: steelblue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: 600;
+    width: 50%;
+  }
+}
